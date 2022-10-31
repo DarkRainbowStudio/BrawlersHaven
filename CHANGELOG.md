@@ -1,3 +1,23 @@
+## 1.11.0a (October 31, 2022)
+	• Rewrote the API
+		○ Migrated from Flask to FastAPI
+		○ Authentication now uses OAuth2 specification
+		○ WebSocket support
+	• Implemented notifications
+		○ Added a notifications button in the multiplayer menu. It animates when the player has notifications.
+		○ Implemented the notifications menu
+		○ Implemented notification alert widget
+	• Implemented friends
+		○ Implemented friends menu. When the player highlights a particular friend, their brawlers are displayed back.
+		○ Implemented add friends menu. Allows the player to search for another player by username and send a friend request.
+		○ Implemented friend requests. If the receiving player is online, they will get a notification. The receiving player can accept or decline the friend request.
+	• Two new armor sets: the Leather set and the Hero set
+	• Improved controller support
+	• Updated Pause menu
+	• The Characters button in the multiplayer menu has been renamed to the Brawlers button and is labeled with a special animated icon that displays back a representation of the player's brawlers
+	• Improved attacking and rolling animations
+
+
 ## 1.10.0a (August 10, 2022)
 	• A server build is now included with alpha releases. Alpha testers can execute a server and connect clients to it.
 	• Moved a large portion of functionality from Blueprints to C++
