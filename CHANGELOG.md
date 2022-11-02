@@ -1,4 +1,4 @@
-## 1.11.0a (October 31, 2022)
+## 1.11.0a (November 2, 2022)
 	• Rewrote the API
 		○ Migrated from Flask to FastAPI
 		○ Authentication now uses OAuth2 specification
